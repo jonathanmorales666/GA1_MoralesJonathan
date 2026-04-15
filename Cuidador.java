@@ -1,0 +1,1 @@
+public class Cuidador { private String nombre; private String turno; public Cuidador(String nombre, String turno) { this.nombre = nombre; this.turno = turno; } public void alimentar() { System.out.println(nombre + " está alimentando a los animales en turno " + turno); } @Override public String toString() { return "Cuidador: " + nombre + ", Turno: " + turno; } }
